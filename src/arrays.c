@@ -51,7 +51,7 @@ void completeArray(int *array, int size)
         array[i] = rand() % (max - min + 1) + min;
     }
 
-    printf("\nArray filled with value from %d to %d\n", min, max);
+    printf("\nArray populated with values from %d to %d\n", min, max);
     isArrayCompleted = 1;
 }
 
